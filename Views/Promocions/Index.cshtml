@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Restaurante_API.Models.Promocion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Administrar Promociones</h1>
+
+<p>
+    <a asp-action="Create">Crear promocion</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.restaurante_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descripcion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.restaurante_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.promocion_id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.promocion_id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.promocion_id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br />
+<a asp-area="" asp-controller="MenuAdministrador" asp-action="Index">Volver al dashboard</a>

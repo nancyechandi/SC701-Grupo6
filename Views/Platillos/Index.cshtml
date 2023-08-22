@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Restaurante_API.Models.Platillo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Administrar Platillos</h1>
+
+<p>
+    <a asp-action="Create">Agregar Platillo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.restaurante_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.vegano)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.gluten)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cantidad)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.restaurante_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.vegano)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gluten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cantidad)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.platillo_id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.platillo_id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.platillo_id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br />
+<a asp-area="" asp-controller="MenuAdministrador" asp-action="Index">Volver al dashboard</a>

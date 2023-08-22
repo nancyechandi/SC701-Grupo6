@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Restaurante_API.Models.Platillo>
+@{
+    ViewData["Title"] = "Carrito de Compras";
+}
+<h2>Carrito de Compras</h2>
+<section id="productos">
+    <div class="productos-container">
+        <h2>Productos Disponibles</h2>
+        <div class="row">
+            @foreach (var platillo in Model)
+            {
+                <div class="col-md-4">
+                    <div class="producto">
+                        <h4>@platillo.nombre</h4>
+                        <p>@platillo.descripcion</p>
+                        
+                        <p>Cantidad Disponible: @platillo.cantidad</p>
+                        <form asp-controller="Carrito" asp-action="AgregarAlCarrito" method="post">
+                            <input type="hidden" name="platilloId" value="@platillo.platillo_id" />
+                            <button type="submit" class="btn btn-primary">Agregar al Carrito</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<br />
+<br />
+        <h2>Mi Carrito</h2>
+        
+            @foreach (var item in ViewBag.Carrito)
+            {
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="producto">
+                        <h4>@item.Platillo.nombre</h4>
+                        <p>Cantidad: @item.Cantidad</p>
+                        <form asp-controller="Carrito" asp-action="RemoverDelCarrito" method="post">
+                            <input type="hidden" name="platilloId" value="@item.Platillo.platillo_id" />
+                            <button type="submit" class="btn btn-primary">Remover del Carrito</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            }
+        <br />
+        @if (ViewBag.Carrito != null && ViewBag.Carrito.Count > 0)
+        {
+            
+        <button type="submit" class="btn btn-primary">Generar Recibo</button>
+            
+        }
+

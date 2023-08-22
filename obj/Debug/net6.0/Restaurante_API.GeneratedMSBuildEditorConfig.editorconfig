@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Restaurante_API
+build_property.RootNamespace = Restaurante_API
+build_property.ProjectDir = C:\Users\Odin\Desktop\Proyecto Grupal v2\Final\Restaurante_API\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Odin\Desktop\Proyecto Grupal v2\Final\Restaurante_API
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Carrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/EventosCliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc0NsaWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Eventos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Eventos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Eventos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Eventos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Eventos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/MenuCliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUNsaWVudGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Platillos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGlsbG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Platillos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGlsbG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Platillos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGlsbG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Platillos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGlsbG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Platillos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGlsbG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/PromocionesCliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uZXNDbGllbnRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Promocions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Promocions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Promocions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Promocions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Promocions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW9jaW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Registro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Reservacion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YWNpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Reseña/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZcOxYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Odin/Desktop/Proyecto Grupal v2/Final/Restaurante_API/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1xc13u5lrh

@@ -1,0 +1,4 @@
+Recibo de Compra
+----------------
+prueba platillo - Cantidad: 1
+Gallo Pinto - Cantidad: 1

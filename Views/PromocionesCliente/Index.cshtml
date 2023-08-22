@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Restaurante_API.Models.Promocion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Aprovecha nuestras Promos!</h1>
+<br />
+<p>¡Descubre nuestras increíbles promociones y disfruta de descuentos especiales en nuestros deliciosos
+    platillos! No te pierdas estas oportunidades únicas para probar lo mejor de la cocina costarricense a precios especiales.
+    ¡Te esperamos con los brazos abiertos para vivir momentos inolvidables en nuestras promociones!</p>
+    <br />
+@foreach (var item in Model) {
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.titulo)</h5>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.descripcion)</p>
+                    </div>
+                </div>
+            </div>
+        }
+

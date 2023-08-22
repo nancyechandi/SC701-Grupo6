@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Restaurante_API.Models.Reservacion>
+@{
+    ViewData["Title"] = "Reservaciones";
+}
+<h2>Ticos Cuisine</h2>
+<br />
+<h3>Reservar</h3>
+<form method="post" action="/Reservacion/AddReservacion">
+    <label for="date">Fecha de Reserva:</label>
+    <input type="date" id="date" name="fecha_reserva">
+    <br>
+    <label for="time">Hora de Reserva:</label>
+    <input type="time" id="time" name="fecha_hora">
+    <br>
+    <label for="guests">Número de Personas:</label>
+    <input type="number" id="guests" name="personas" min="1">
+    <br><br>
+    <button class="btn btn-danger" type="submit">Confirmar Reservación</button>
+</form>
+<br />
+<br />
+<h2>Reservaciones Realizadas</h2>
+<br />
+<div>
+    
+        @foreach (var reservacion in Model)
+        {
+            <div class="card" style="width:500px">
+                <div class="card-body">
+                <strong>Fecha de Reserva:</strong> @reservacion.fecha_reserva.ToString("dd/MM/yyyy")
+
+            <br>
+                    <strong>Hora de Reserva:</strong> @reservacion.fecha_hora
+
+            <br>
+                    <strong>Número de Personas:</strong> @reservacion.personas
+                </div>
+            </div>
+            <br />
+        }
+    
+</div>
+

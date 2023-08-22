@@ -1,0 +1,220 @@
+﻿/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #CCCCCC;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #1E2952;
+}
+
+
+a {
+    color: #FF4136;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #0056b3;
+    }
+
+/* Encabezado */
+.navbar {
+    background-color: white;
+    color: #000;
+}
+
+.navbar-brand {
+    color: #000;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+
+/* Secciones */
+section {
+    margin-bottom: 30px;
+}
+
+
+
+/* Productos */
+.productos-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Carrito */
+#carrito {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 2em;
+}
+
+
+/* Categorías */
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Inicio de Sesión */
+form {
+    margin-bottom: 20px;
+}
+
+    form div {
+        margin-bottom: 10px;
+    }
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+
+/* Menú */
+#productos h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+
+
+.card img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    margin-bottom: 10px;
+}
+
+.producto .button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+    .producto .button:hover {
+        background-color: #0056b3;
+    }
+
+/* Reseñas */
+form {
+    margin-bottom: 20px;
+}
+
+    form div {
+        margin-bottom: 10px;
+    }
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Reservaciones */
+#restaurantDropdown {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Editing for the footer */
+#my-footer {
+    background-color: #f2f2f2; /* Gray background color */
+    color: #0063db; /* Text color */
+    font-family: Arial, sans-serif; /* Text font */
+    padding: 20px; /* Add some padding around the content */
+    text-align: center; /* Center-align the text */
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between; /* Spread columns evenly */
+}
+
+    .footer-columns .col-6 {
+        flex: 1; /* Equal width for all columns */
+        position: relative;
+        padding-right: 5px; /* Adjust the space between column content and the line */
+        display: flex; /* Use flexbox for centering */
+        flex-direction: column; /* Stack content vertically */
+        justify-content: center; /* Center content vertically */
+    }
+
+        .footer-columns .col-6:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 1px;
+            background-color: #d90000; /* Replace with your desired line color */
+        }
+
+/* Styles for smaller screens (optional) */
+@media (max-width: 767px) {
+    .footer-columns .col-6 {
+        flex: 1; /* Equal width for all columns on smaller screens */
+        padding-right: 0; /* Remove padding on smaller screens */
+    }
+
+        .footer-columns .col-6:not(:last-child)::after {
+            display: none; /* Hide the line on smaller screens if not needed */
+        }
+}

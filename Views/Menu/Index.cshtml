@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Restaurante_API.Models.Platillo>
+@{
+    ViewData["Title"] = "Menú";
+}
+<h2>Dashboard Admin</h2>
+<br />
+    <div class="productos-container" style="background-color: aliceblue">
+    <div class="row">
+
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <a asp-area="" asp-controller="Platillos" asp-action="Index">Menu</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br />
+        <div class="row">
+            
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <a asp-area="" asp-controller="Eventos" asp-action="Index">Eventos</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br />
+        <div class="row">
+           
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <a asp-area="" asp-controller="Promocions" asp-action="Index">Promociones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

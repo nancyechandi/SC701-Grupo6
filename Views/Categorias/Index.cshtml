@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Categorías";
+    var platillosVeganos = (List<Platillo>)ViewData["Veganos"];
+    var platillosGluten = (List<Platillo>)ViewData["Gluten"];
+}
+<h2>Categorías</h2>
+<h3>Platillos Veganos</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Restaurante ID</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var platillo in platillosVeganos)
+        {
+            <tr>
+                <td>@platillo.nombre</td>
+                <td>@platillo.descripcion</td>
+                <td>@platillo.restaurante_id</td>
+                <td>@platillo.cantidad</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<h3>Platillos con Gluten</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Restaurante ID</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var platillo in platillosGluten)
+        {
+            <tr>
+                <td>@platillo.nombre</td>
+                <td>@platillo.descripcion</td>
+                <td>@platillo.restaurante_id</td>
+                <td>@platillo.cantidad</td>
+            </tr>
+        }
+    </tbody>
+</table>

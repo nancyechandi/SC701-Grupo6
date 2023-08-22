@@ -1,0 +1,65 @@
+﻿@model Restaurante_API.Models.Restaurante
+@{
+    ViewData["Title"] = "Inicio";
+}
+<div class="restaurant_principal">
+    <div class="container">
+        <h2>Bienvenidos! Somos Ticos Cuisine!</h2>
+        <br/>
+        <h4>Un placer servirles!</h4>
+        <br/>
+        <img src="~/Imagenes/cover.jpg" alt="Traditional Costa Rican dishes" width="800" height="600">
+        <br /><br />
+        <h4>Ubicacion: Playa Tamarindo, Guanacaste, Costa Rica</h4>
+        <br/>
+        <a href="https://goo.gl/maps/VBYfLTmPcqprXymM8">Encuentranos en Google maps!</a>
+        <br /><br />
+        <p>
+            "Playa Tamarindo es una hermosa y vibrante playa ubicada en la costa del Pacífico de Costa Rica, en la provincia de Guanacaste. Es conocida por sus impresionantes paisajes, aguas cálidas y arenas doradas que atraen a turistas y lugareños por igual. El restaurante se encuentra a pocos pasos de la playa, lo que ofrece a los comensales la oportunidad de disfrutar de una experiencia culinaria única junto al mar.
+
+            Con su ambiente relajado y acogedor, el restaurante en Playa Tamarindo ofrece una deliciosa selección de platos típicos de la cocina costarricense, que resaltan los sabores auténticos de la región. Los comensales pueden deleitarse con frescos mariscos locales, exquisitos ceviches, gallo pinto tradicional y otras delicias culinarias que reflejan la rica cultura gastronómica de Costa Rica.
+
+            Ya sea para una cena romántica al atardecer, una reunión familiar o simplemente para disfrutar de una experiencia gastronómica en un entorno paradisíaco, el restaurante en Playa Tamarindo es el lugar perfecto para aquellos que buscan deleitar sus sentidos con lo mejor de la cocina costarricense mientras se maravillan con la belleza natural que ofrece este destino único en el mundo."
+        </p>
+        <br /><br />
+        <h2>Horario del Restaurante</h2>
+        <table>
+            <tr>
+                <th>Día</th>
+                <th>Horario</th>
+            </tr>
+            <tr>
+                <td>Lunes</td>
+                <td>Cerrado</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>11:30 AM - 9:00 PM</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>11:30 AM - 9:00 PM</td>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>11:30 AM - 9:00 PM</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>11:30 AM - 10:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>11:30 AM - 10:00 PM</td>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td>12:00 PM - 8:00 PM</td>
+            </tr>
+        </table>
+        <p>Por favor, tenga en cuenta que el horario está sujeto a cambios sin previo aviso. Para reservaciones o consultas, contáctenos al teléfono (+506) 8456-7890 o por correo electrónico a info@ticoscuisine.com.</p>
+        <br /><br />
+        <a asp-controller="Menu" asp-action="Index">Consultar Menu</a>
+        
+    </div>
+</div>

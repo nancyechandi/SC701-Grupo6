@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Restaurante_API.Models.Evento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Próximos Eventos</h1>
+
+
+<p>¡Celebra con nosotros en nuestro próximo evento especial! Nuestra página de eventos
+    te ofrece una variedad de emocionantes actividades y experiencias para disfrutar junto 
+    a tus seres queridos. Desde cenas temáticas y degustaciones culinarias hasta espectáculos
+    en vivo y noches de música, siempre hay algo para todos en nuestros eventos. Únete a nosotros
+    y déjanos sorprenderte con nuestra hospitalidad costarricense mientras te deleitas con
+    exquisitos platos, bebidas refrescantes y momentos inolvidables. ¡No te pierdas la oportunidad
+    de ser parte de nuestra comunidad y compartir momentos inolvidables en nuestros eventos especiales!</p>
+
+@foreach (var item in Model) {
+        
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.titulo)</h5>
+                <p class="card-text">@Html.DisplayFor(modelItem => item.descripcion)</p>
+                <p class="card-text">Fecha del evento: @Html.DisplayFor(modelItem => item.fecha_evento)</p>
+                </div>
+            </div>
+        </div>       
+}
